@@ -27,20 +27,6 @@ border: 1px solid rgba(255, 255, 255, 0.3);
   font-size: 1.2em;
   font-weight: 500;
 }
-/* ICONES DE REDES SOCIAIS */
-.icones-redes-sociais{float: right; border-radius: 10px;
-  background: rgba( 255, 255, 255, 0.25 );
-  backdrop-filter: blur( 4px );
-  -webkit-backdrop-filter: blur( 4px );
-  border-radius: 10px;
-  border: 1px solid rgba( 255, 255, 255, 0.18 );}
-    
-.icones-redes-sociais a{color: rgba(5, 7, 132, 0.568) ;float: left;margin-left: 25px; padding: 5px;}
-.btn-facebook:hover{color: rgb(64, 102, 240);}
-.btn-instagram:hover{color: rgb(228, 61, 206);}
-.btn-whatsapp:hover{color: rgb(51, 164, 54);}
-.btn-youtube:hover{color: rgb(241, 9, 40);}
-.btn-twitter:hover{color: rgb(64, 102, 240);}
 /* Painel com logo */
   .card-panel{
     background-image: url('../img/background-azul.jpg');
