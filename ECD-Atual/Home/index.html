@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Materialize CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+<!-- Folha de estilo-->
+<link rel="stylesheet" href="style.css">
+<!--Font awesome - icones-->
+<script src="https://kit.fontawesome.com/d65abf7a39.js" crossorigin="anonymous"></script>
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<script src="Js/scripts.js" defer></script>
+<!-- icon-->
+<link rel="shortcut icon" href="../img/cruz.png">
+    <title>ECD Encontro com Deus</title>
+</head>
+<body>
+<!-- menu Sidenav-->
+<header class="menu-principal">
+  <div class="navbar-fixed">
+    <nav class="blue darken-2">
+      <div class="container">
+        <div class="nav-wrapper">
+          <a href="#" data-target="mobile-links" class="sidenav-trigger right">
+          <i class="material-icons">menu</i></a>
+          <ul class="right hide-on-med-and-down">
+            <li class="active"><a href="index.html">INÍCIO</a></li>
+            <li><a href="manutenção.html">DOAÇÃO</a></li>
+            <li><a href="manutenção.html">CONTATO</a></li>
+            <li><a href="manutenção.html">VÍDEOS</a></li>
+            <li><a href="indexRadio.html">RÁDIO</a></li>
+            <li><a href="manutenção.html">TV</a></li>
+            <li><a href="Login.html">LOGIN</a></li>
+            <!-- Dropdown Trigger -->
+            <li><a class="dropdown-trigger" href="#!" data-target="dropdown2"> PROGRAMAÇÕES <i class="material-icons right">arrow_drop_down</i></a></li>
+            <!-- Dropdown Structure -->
+          <ul id="dropdown2" class="dropdown-content">
+            <li><a class="text blue-text" href="manutenção.html">SO1</a></li>
+            <li class="divider" tabindex="-1"></li>
+            <li><a class="text blue-text" href="manutenção.html">SPM</a></li>
+            <li class="divider" tabindex="-1"></li>
+            <li><a class="text blue-text" href="manutenção.html">Fechados na Fé</a></li>
+            <li class="divider" tabindex="-1"></li>
+            <li><a class="text blue-text" href="gigi.html">Turma da Gigi</a></li>
+          </ul>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+  <!--- Menu mobile -->
+  <ul class="sidenav center-align" id="mobile-links">
+    <br><img width="150" src="../img/logotipo.png" alt=""class="responsive-img">
+      <li><a class="text white-text" href="Login.html">LOGIN</a></li>
+      <li><a class="text white-text" href="manutenção.html">DOAÇÃO</a></li>
+      <li><a class="text white-text" href="manutenção.html">CONTATO</a></li>
+      <li><a class="text white-text" href="manutenção.html">VÍDEOS</a></li>
+      <li><a class="text white-text" href="indexRadio.html">RÁDIO</a></li>
+      <li><a class="text white-text" href="manutenção.html">TV</a></li>
+      <li><a class="text white-text" href="index.html">INÍCIO</a></li>
+    <!-- Dropdown Trigger   Programações -->
+      <a class="dropdown-trigger white-text" data-coverTrigger="true" data-hover="true" href="#!" data-target="dropdown1"> PROGRAMAÇÕES <i class="material-icons">arrow_drop_down</i></a>
+    <ul id='dropdown1' class='dropdown-content'>        
+      <li><a class="text blue-text" href="manutenção.html">SO1</a></li>
+      <li class="divider" tabindex="-1"></li>
+      <li><a class="text blue-text" href="manutenção.html">SPM</a></li>
+      <li class="divider" tabindex="-1"></li> 
+      <li><a class="text blue-text" href="gigi.html">Turma da Gigi</a></li>
+      <li class="divider" tabindex="-1"></li>
+      <li><a class="text blue-text" href="manutenção.html">Fechados na Fé</a></li>
+    </ul>
+  </ul>
+  <!-------   Painel com logo  ------>
+  <div class="card-panel">
+    <img src="../img/logotipo.png" alt="" class="responsive-img">
+  </div>
+  <!------------- Parallax  ------------------------->
+  <div class="parallax-container">
+    <div class="parallax"><img src="../img/Templo-sky.jpg"></div>
+  </div>
+</header>
+<section class="main">
+<!--- aside Vídeo---->
+  <div class="row container">
+      <aside class="col s12 l9"><br>
+        <div class="card">
+          <div class="video-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/EcovPs5dGso" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+          </div>
+        </div>
+      </aside>
+    <section class="col s12 l3"><br>
+  <!--sobre os pastores-->
+  <div class="card2">  
+    <div class="content2">
+      <img width="100" src="../img/bispo (2).jpg" class="circle responsive-img">
+      <h5>Bispo Antonio Silva</h5>
+      <p>I am a very simple card. I am good at containing small bits of information.
+      I am convenient because I require little markup to use effectively.</p>
+    </div>
+  </div>
+  <br><br>
+  <div class="card2">  
+    <div class="content2">
+      <img width="100" src="../img/Beth.jpg" class="circle responsive-img">
+      <h5>Pastora Beth Paula</h5>
+      <p>I am a very simple card. I am good at containing small bits of information.
+      I am convenient because I require little markup to use effectively.</p>
+    </div>
+  </div>  
+    </section>
+  </div>
+  <!------ Notícias----------- -->
+<div class="row container">
+  <section class="col s12 l9">
+    <h4 style="color: indigo; font-weight: 600; font-size: 2.2em;"> Notícias</h4>
+    <article class="col s12 l4">
+      <div class="card">
+        <div class="card-image">
+          <img src="../img/borboleta.jpg">
+        </div>
+      </div>
+    </article>
+    <article class="col s12 l4">
+      <div class="card">
+        <div class="card-image">
+          <img src="../img/terca-feira.jpg">
+        </div>
+      </div>      
+    </article> 
+    <article class="col s12 l4">
+      <div class="card">
+        <div class="card-image">
+          <img src="../img/tbt.jpg">
+        </div>
+      </div>      
+    </article>
+    <article class="col s12 l4">
+      <div class="card">
+        <div class="card-image">
+          <img src="../img/fechado.jpg">
+        </div>
+      </div>
+    </article> 
+    <article class="col s12 l4">
+      <div class="card">
+        <div class="card-image">
+          <img src="../img/aviao.jpg">
+        </div>
+      </div>
+    </article>
+    <article class="col s12 l4">
+      <div class="card">
+        <div class="card-image">
+          <img src="../img/correntes.jpg">
+        </div>
+      </div>
+    </article>
+  </section>
+<!-- PROGRAMAÇÕES-->
+<aside class="col s12 l3">
+  <h4 style="color: indigo; font-weight: 600; font-size: 2.2em;">Programações</h4>
+  <ul class="collection">
+    <li class="collection-item avatar">
+      <img src="../img/tbt.jpg" alt="" class="circle">
+      <span class="title indigo-text">SPM</span>
+      <p>First Line <br>
+          Second Line
+      </p>
+      <a href="#!" class="secondary-content"><i class="material-icons">fingerprint</i></a>
+    </li>
+    <li class="collection-item avatar">
+      <img src="../img/banerSo1.jpg" alt="" class="circle">
+      <span class="title indigo-text">SO1</span>
+      <p>First Line <br>
+          Second Line
+      </p>
+      <a href="#!" class="secondary-content"><i class="material-icons">fingerprint</i></a>
+    </li>
+    <li class="collection-item avatar">
+      <img src="../img/gigi.png" alt="" class="circle">
+      <span class="title indigo-text">Turma da Gigi</span>
+      <p>First Line <br>
+          Second Line
+      </p>
+      <a href="../Home/gigi.html" class="secondary-content"><i class="material-icons">fingerprint</i></a>
+    </li>
+    <li class="collection-item avatar">
+      <img src="../img/fechado.jpg" alt="" class="circle">
+      <span class="title indigo-text">Fechados na Fé</span>
+      <p>First Line <br>
+          Second Line
+      </p>
+      <a href="#!" class="secondary-content"><i class="material-icons">fingerprint</i></a>
+    </li>
+    <li class="collection-item avatar">
+      <img src="../img/aecd.png" alt="" class="circle">
+      <span class="title indigo-text">AECD</span>
+      <p>First Line <br>
+          Second Line
+      </p>
+      <a href="#" class="secondary-content"><i class="material-icons">fingerprint</i></a>
+    </li>
+  </ul><br>
+<!---------  imagem ----------->
+<div class="card-image center-align">
+  <img width="100" src="../img/cruz.png">
+</div>
+</div>
+</aside>
+</div>
+</section><br>
+<div class="container">
+  <div class="rádio-ecd">
+      <h2> RÁDIO ECD</h2>
+      <h5>As músicas que edificam</h5>
+    <div class="container center-align">
+          <!---- RADIO ECD Brasil -->
+          <img src="../img/2.png" class="responsive-img">
+          <audio src="https://svrstream2.svreua.com/stream.php?porta=8264/;&1640620248991
+          "controls loop></audio> 
+    </div>
+  </div>
+</div><br>
+ <!--------- Ícones de rede social fixo ----------->
+<div class="social">
+  <ul>
+  <li><a href="https://www.facebook.com/ECDonline">Facebook <i class="fab fa-facebook"></i></a></li>
+  <li><a href="https://www.instagram.com/ecd_oficial/">Instagram <i class="fab fa-instagram"></i></a></li>
+  <li><a href="https://api.whatsapp.com/send?text=Início">WhatsApp <i class="fab fa-whatsapp"></i></a</li>
+  <li><a href="https://www.youtube.com/c/ECDOnline1">YouTube <i class="fab fa-youtube"></i></a></li>
+  </ul>
+</div>
+ <!---------  card doação ----------->
+<div class="row">
+<div class="container">
+  <div class="doação">
+  <h2> DOE AGORA </h2>
+  <h5>FAÇA SUA DOAÇÃO ONLINE AGORA MESMO</h5>
+  <div class="col s12 l4">
+    <div style="margin-top: 50px;" class="card">
+      <div class="card-image">
+        <img  src="../img/doacoes.jpg">
+        <div class="card-action amber accent-3">
+          <button class="btn waves-effect waves-light" type="submit" name="action">DOAÇÃO
+            <i class="material-icons right">send</i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col s12 l4">
+    <div style="margin-top: 50px; height: 250px;" class="card">
+      <div class="card-image">
+        <img height="309" src="../img/cnpj.png">
+      </div>
+    </div>
+  </div>
+  <div class="col s12 l4">
+    <div style="margin-top: 50px;" class="card">
+      <div class="card-image">
+        <img height="309" src="../img/qrcode.png">
+      </div>
+    </div>
+  </div>
+</div>
+    <!---------  card aplicativo ecd ----------->
+    <div class="app center-align">
+      <a href="https://play.google.com/store/apps/details?id=br.com.zasmedia.ecd">
+      <img src="../img/Baixe o app white.png"  class="responsive-img"></a>
+    </div>
+  </div>
+</div> 
+<!---------main2----------->
+<div class="container">
+<div class="main2">
+  <div class="nav-wrapper container"><!---- card versículo do dia ----->
+    <div class="row">
+    <div class="col s12 l4 offset-l2">
+      <div style="background-color: rgba(111, 175, 235, 0.048); border-radius: 10px; border: 1px solid rgba(255, 255, 255, 0.335); margin: 10%;" class="card-painel center-align teal-text">
+        <section class="elementor-section elementor-top-section elementor-element elementor-element-537457a elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="537457a" data-element_type="section">
+        <div class="elementor-container elementor-column-gap-default">
+          <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-4ed22f9"    data-id="4ed22f9" data-element_type="column">
+          <div class="elementor-widget-wrap elementor-element-populated">
+            <div class="elementor-element elementor-element-fa0f857 elementor-widget elementor-widget-zm-title"     data-id="fa0f857" data-element_type="widget" data-widget_type="zm-title.default">
+              <div class="elementor-widget-container">
+                <div class="widget-title orange-text">
+                  <h5>Versículo do Dia</h5>
+                  <div class="hline"></div>
+                </div>
+              </div>
+            </div>
+          <div class="elementor-element elementor-element-a84ffdf elementor-widget elementor-widget-zm-daily-verse" data-id="a84ffdf" data-element_type="widget" data-widget_type="zm-daily-verse.default">
+            <div class="elementor-widget-container">
+              <div class="daily-verse">
+                <div class="dailyVersesWrapper">Versículo do Dia</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!--- card Fale conosco   --> 
+    <div class="col s12 l4"> 
+      <div class="submitMsg"> 
+        <section class="contato">
+          <div class="container-gless">   
+              <h5> Fale conosco</h5>
+              <div class="row100">
+                <div class="col">
+                  <div class="inputBox">
+                    <input type="text" name="" required="required">
+                    <span class="text">Nome</span>
+                    <span class="line"></span>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="inputBox">
+                    <input type="text" name="" required="required">
+                    <span class="text">Telefone</span>
+                    <span class="line"></span>
+                  </div>
+                </div>
+              </div>
+              <div class="row100">
+                <div class="col">
+                  <div class="inputBox textarea">
+                    <textarea required="required"></textarea>
+                    <input type="text" name="" required="required">
+                    <span class="text">Escreva sua mensagem</span>
+                    <span class="line"></span>
+                  </div>
+                </div>
+              </div>       
+              <div class="row100">
+                <div class="col">        
+                <input type="submit" value="Enviar">
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div><br><br>
+<!-- conteúdo do rodapé -->
+<footer class="page-footer blue darken-2">
+  <div class="container">
+    <div class="row">
+      <div class="col l6 s12">
+        <h5 class="white-text">ECD Encontro Com Deus</h5>
+        <p class="white-text">Estrada Dom João Nery, 1533 - Vila Silva Teles, São Paulo - SP <br> Rua Farmacêutico Luiz Andrade, 1381 - Jd. Mandacarú - Maringá </p>
+      </div>
+      <div class="col l3 s12">
+        <h5 class="white-text">Redes sociais</h5>
+        <ul>
+          <li><a class="white-text" href="#!">instagram/somosencontro</a></li>
+          <li><a class="white-text" href="#!">youtube/ecdencontrocomdeus</a></li>
+          <li><a class="white-text" href="#!">facebook/ECDonline</a></li>
+        </ul>
+      </div>
+      <div class="col l3 s12">
+        <h5 class="white-text">contatos</h5>
+        <ul>
+          <li><a class="white-text" href="#!">(11) 9 8720-9489</a></li>
+          <li><a class="white-text" href="#!">(11) 9 9999-9999</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+  <div class="footer-copyright">
+    <div class="container">
+      &copy 2021 Todos direitos reservados - Made by <a class="grey-text" href="#">ECD Encontro Com Deus</a>
+      <div class="icones-redes-sociais">
+        <a href="https://www.facebook.com/ECDonline" class="btn-facebook"> <i class="fab fa-facebook"></i> </a>
+        <a href="https://www.instagram.com/somosencontro/" class="btn-instagram"> <i class="fab fa-instagram"></i> </a>
+        <a href="https://api.whatsapp.com/send?text=Início" class="btn-whatsapp"> <i class="fab fa-whatsapp"></i> </a>
+        <a href="https://www.youtube.com/c/ECDOnline1" class="btn-youtube"> <i class="fab fa-youtube"></i> </a>
+        <a href="https://twitter.com/encomdeus" class="btn-twitter"><i class="fab fa-twitter"></i></a>
+      </div>
+    </div>
+  </div>
+</footer>
+</body>
+<!---Jquery-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<!-- Materialize JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</html>
