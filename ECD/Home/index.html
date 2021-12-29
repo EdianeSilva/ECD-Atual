@@ -23,21 +23,29 @@
 <!-- menu Sidenav-->
 <header class="menu-principal">
   <div class="navbar-fixed">
-    <nav class="blue darken-2">
+    <nav class="menu">
       <div class="container">
         <div class="nav-wrapper">
-          <a href="#" data-target="mobile-links" class="sidenav-trigger right">
+          <a href="#" data-target="mobile-links" class="sidenav-trigger left">
           <i class="material-icons">menu</i></a>
+          <img style="width: 100px;margin-top: 9px;" src="../img/ECD +.PNG" alt="" class="brand-logo">
           <ul class="right hide-on-med-and-down">
-            <li class="active"><a href="index.html">INÍCIO</a></li>
-            <li><a href="manutenção.html">DOAÇÃO</a></li>
-            <li><a href="manutenção.html">CONTATO</a></li>
-            <li><a href="manutenção.html">VÍDEOS</a></li>
-            <li><a href="indexRadio.html">RÁDIO</a></li>
-            <li><a href="manutenção.html">TV</a></li>
-            <li><a href="Login.html">LOGIN</a></li>
+            <li><a class="opçoes" href="index.html">INÍCIO</a></li>
+            <li><a class="opçoes" href="manutenção.html">DOAÇÃO</a></li>
+            <li><a class="opçoes" href="manutenção.html">CONTATO</a></li>
+            <li><a class="opçoes" href="Login.html">LOGIN</a></li>
+            <!-- Dropdown Mídia -->
+            <li><a class="dropdown-trigger" href="#!" data-target="dropdown4"> MÍDIA <i class="material-icons right">arrow_drop_down</i></a></li>
+            <!-- Dropdown Structure -->
+          <ul id="dropdown4" class="dropdown-content">
+            <li><a class="text blue-text" href="manutenção.html">TV</a></li>
+            <li class="divider" tabindex="-1"></li>
+            <li><a class="text blue-text" href="indexRadio.html">RÁDIO</a></li>
+            <li class="divider" tabindex="-1"></li>
+            <li><a class="text blue-text" href="manutenção.html">VÍDEOS</a></li>
+          </ul>
             <!-- Dropdown Trigger -->
-            <li><a class="dropdown-trigger" href="#!" data-target="dropdown2"> PROGRAMAÇÕES <i class="material-icons right">arrow_drop_down</i></a></li>
+            <li class="opçoes" ><a class="dropdown-trigger" href="#!" data-target="dropdown2"> PROGRAMAÇÕES <i class="material-icons right">arrow_drop_down</i></a></li>
             <!-- Dropdown Structure -->
           <ul id="dropdown2" class="dropdown-content">
             <li><a class="text blue-text" href="manutenção.html">SO1</a></li>
@@ -55,7 +63,7 @@
   </div>
   <!--- Menu mobile -->
   <ul class="sidenav center-align" id="mobile-links">
-    <br><img width="150" src="../img/logotipo.png" alt=""class="responsive-img">
+    <br>
       <li><a class="text white-text" href="Login.html">LOGIN</a></li>
       <li><a class="text white-text" href="manutenção.html">DOAÇÃO</a></li>
       <li><a class="text white-text" href="manutenção.html">CONTATO</a></li>
@@ -75,10 +83,6 @@
       <li><a class="text blue-text" href="manutenção.html">Fechados na Fé</a></li>
     </ul>
   </ul>
-  <!-------   Painel com logo  ------>
-  <div class="card-panel">
-    <img src="../img/logotipo.png" alt="" class="responsive-img">
-  </div>
   <!------------- Parallax  ------------------------->
   <div class="parallax-container">
     <div class="parallax"><img src="../img/Templo-sky.jpg"></div>
@@ -119,7 +123,7 @@
   <!------ Notícias----------- -->
 <div class="row container">
   <section class="col s12 l9">
-    <h4 style="color: indigo; font-weight: 600; font-size: 2.2em;"> Notícias</h4>
+    <h4 style="color: rgb(214, 205, 221); font-weight: 600; font-size: 2.2em;"> Notícias</h4>
     <article class="col s12 l4">
       <div class="card">
         <div class="card-image">
@@ -165,7 +169,7 @@
   </section>
 <!-- PROGRAMAÇÕES-->
 <aside class="col s12 l3">
-  <h4 style="color: indigo; font-weight: 600; font-size: 2.2em;">Programações</h4>
+  <h4 style="color: rgb(214, 205, 221); font-weight: 600; font-size: 2.2em;">Programações</h4>
   <ul class="collection">
     <li class="collection-item avatar">
       <img src="../img/tbt.jpg" alt="" class="circle">
@@ -210,7 +214,7 @@
   </ul><br>
 <!---------  imagem ----------->
 <div class="card-image center-align">
-  <img width="100" src="../img/cruz.png">
+  <img style="width: 150px; margin-top: 7px;" src="../img/ECD +.PNG">
 </div>
 </div>
 </aside>
@@ -231,10 +235,10 @@
  <!--------- Ícones de rede social fixo ----------->
 <div class="social">
   <ul>
-  <li><a href="https://www.facebook.com/ECDonline">Facebook <i style="color: rgb(7, 60, 252);" class="fab fa-facebook-square"></i></a></li>
-  <li><a href="https://www.instagram.com/ecd_oficial/">Instagram <i style="color: rgb(250, 9, 218);" class="fab fa-instagram-square"></i></a></li>
-  <li><a href="https://api.whatsapp.com/send?text=Início">WhatsApp <i style="color: rgb(78, 195, 82);" class="fab fa-whatsapp-square"></i></a</li>
-  <li><a href="https://www.youtube.com/c/ECDOnline1">YouTube <i style="color: rgb(250, 8, 40);" class="fab fa-youtube-square"></i></a></li>
+  <li><a href="https://www.facebook.com/ECDonline">Facebook <i style="color: rgb(8, 59, 245);" class="fab fa-facebook-square"></i></a></li>
+  <li><a href="https://www.instagram.com/ecd_oficial/">Instagram <i style="color: rgb(185, 3, 161);" class="fab fa-instagram-square"></i></a></li>
+  <li><a href="https://api.whatsapp.com/send?text=Início">WhatsApp <i style="color: rgb(11, 190, 17);" class="fab fa-whatsapp-square"></i></a</li>
+  <li><a href="https://www.youtube.com/c/ECDOnline1">YouTube <i style="color: rgb(202, 5, 31);" class="fab fa-youtube-square"></i></a></li>
   </ul>
 </div>
  <!---------  card doação ----------->
@@ -283,14 +287,14 @@
   <div class="nav-wrapper container"><!---- card versículo do dia ----->
     <div class="row">
     <div class="col s12 l4 offset-l2">
-      <div style="background-color: rgba(111, 175, 235, 0.048); border-radius: 10px; border: 1px solid rgba(255, 255, 255, 0.335); margin: 10%; padding: 5px;" class="card-painel center-align teal-text">
+      <div style="background-color: rgba(111, 175, 235, 0.048); border-radius: 10px; border: 1px solid rgba(255, 255, 255, 0.335); margin: 10%; padding: 5px;" class="card-painel center-align blue-text">
         <section class="elementor-section elementor-top-section elementor-element elementor-element-537457a elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="537457a" data-element_type="section">
         <div class="elementor-container elementor-column-gap-default">
           <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-4ed22f9"    data-id="4ed22f9" data-element_type="column">
           <div class="elementor-widget-wrap elementor-element-populated">
             <div class="elementor-element elementor-element-fa0f857 elementor-widget elementor-widget-zm-title"     data-id="fa0f857" data-element_type="widget" data-widget_type="zm-title.default">
               <div class="elementor-widget-container">
-                <div class="widget-title orange-text">
+                <div class="widget-title white-text">
                   <h5>Versículo do Dia</h5>
                   <div class="hline"></div>
                 </div>
@@ -354,7 +358,7 @@
 </div>
 </div><br><br>
 <!-- conteúdo do rodapé -->
-<footer class="page-footer blue darken-2">
+<footer class="page-footer  light-blue darken-4">
   <div class="container">
     <div class="row">
       <div class="col l6 s12">

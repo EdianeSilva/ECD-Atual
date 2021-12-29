@@ -11,8 +11,18 @@
 body{
   max-width: 1680px;
   margin: 0 auto;
+  background: rgb(0,26,87);
+  background: linear-gradient(90deg, rgba(0,26,87,1) 0%, rgba(0,26,87,1) 9%, rgba(0,62,129,1) 28%, rgba(0,132,209,1) 53%, rgba(0,131,208,1) 61%, rgba(0,128,205,1) 63%, rgba(0,62,129,1) 92%);
 }
+.menu{
+  background: rgb(0,26,87);
+background: linear-gradient(90deg, rgba(0,26,87,1) 0%, rgba(0,26,87,1) 9%, rgba(0,62,129,1) 28%, rgba(0,132,209,1) 53%, rgba(0,131,208,1) 61%, rgba(0,128,205,1) 63%, rgba(0,62,129,1) 92%);
 
+}
+.opçoes:hover{
+  background: rgb(0,132,209);
+background: linear-gradient(90deg, rgba(0,132,209,0.4351155257024685) 34%, rgba(0,184,224,0.4575244892879027) 53%, rgba(0,132,209,0.4351155257024685) 79%);
+}
 .sidenav{
 /* From https://css.glass */
 background: rgba(255, 255, 255, 0.2);
@@ -27,13 +37,6 @@ border: 1px solid rgba(255, 255, 255, 0.3);
   font-size: 1.2em;
   font-weight: 500;
 }
-/* Painel com logo */
-  .card-panel{
-    background-image: url('../img/background-azul.jpg');
-    background-size: cover;
-    box-shadow: 8px 8px 32px 8px rgba(139, 201, 241, 0.37);
-    backdrop-filter: blur( 4px );  
-  }
   /*sobre os pastores*/
   .card2{  
     position: relative;  
@@ -47,7 +50,7 @@ border: 1px solid rgba(255, 255, 255, 0.3);
     background: rgba(255, 255, 255, 0.089);  
     backdrop-filter: blur(20px);  
     border: 1px solid white;  
-    color: rgb(6, 10, 255);  
+    color: rgb(6, 82, 158);  
     display: flex;  
     justify-content: center;  
     align-items: center;  
@@ -62,7 +65,7 @@ border: 1px solid rgba(255, 255, 255, 0.3);
     text-align: center;  
   }  
   .card2:hover .content2{  
-    color: rgba(35, 112, 235, 0.89);  
+    color: rgba(233, 239, 250, 0.89);  
   }  
   .card2::before,  
   .card2::after{  
@@ -108,8 +111,6 @@ border: 1px solid rgba(255, 255, 255, 0.3);
   align-items: center;
   justify-content: center;
   display: flex;
-  background-image: url('https://images.pexels.com/photos/5706001/pexels-photo-5706001.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
-  background-size: cover;
   border-radius: 10px;
 }
 /* Css da aba contato */
@@ -125,7 +126,7 @@ width: 100%;
 }
 .container-gless h5{
   width: 100%;
-  color: teal;
+  color: white;
   text-align: center;
   margin-bottom: 10px;
 }
@@ -146,7 +147,7 @@ width: 100%;
   position: relative;
   width: 100%;
   height: 40px;
-  color: rgba(140, 140, 144, 0.376);
+  color: rgba(157, 193, 240, 0.534);
 }
 .container-gless .row100 .inputBox input,
 .container-gless .row100 .inputBox.textarea textarea
@@ -160,7 +161,7 @@ width: 100%;
   outline: none;
   padding: 0 10px;
   z-index: 1;
-  color: rgb(8, 8, 8);
+  color: rgb(250, 249, 249);
 }
 .container-gless .row100 .inputBox .text{
   position: absolute;
@@ -185,7 +186,7 @@ width: 100%;
   display: block;
   width: 100%;
   height: 2px;
-  background: rgba(27, 119, 240, 0.13);
+  background:rgba(157, 193, 240, 0.534);
   backdrop-filter: blur( 4px );
   transition: 0.5s;
   border-radius: 2px;
@@ -225,11 +226,11 @@ input[type="submit"]
   outline: none;
   background: rgba(237, 239, 241, 0.198);
   backdrop-filter: blur( 4px );
-  color: rgb(10, 10, 10);
+  color: rgba(92, 90, 90, 0.917);
   border-radius: 8px;
 }
 input[type="submit"]:hover{
-  background-color: rgba(6, 108, 241, 0.493);
+  background: rgb(122, 176, 207);
 }
 
 .submitMsg{
@@ -253,7 +254,7 @@ input[type="submit"]:hover{
   .social ul li {
     display: block;
     margin: 5px;
-    background: rgba(5, 114, 255, 0.363);
+    background: rgba(166, 168, 172, 0.363);
     width: 300px;
     text-align: right;
     padding: 10px;
@@ -275,10 +276,10 @@ input[type="submit"]:hover{
     background: rgba(253, 255, 255, 0.089);
   }
   .social ul li:hover a {
-    color: rgb(122, 43, 250);
+    color: rgb(246, 244, 250);
   }
   .social ul li:hover i {
-    background: rgba(117, 55, 250, 0.322);
+    background: rgba(201, 182, 243, 0.383);
     -webkit-transform: rotate(360deg);
     -moz-transform: rotate(360deg);
     -ms-transform: rotate(360deg);
@@ -292,12 +293,12 @@ input[type="submit"]:hover{
   }
   .social ul li i {
  
-    -webkit-border-radius: 90%;
-    -moz-border-radius: 90%;
-    border-radius: 90%;
+    -webkit-border-radius: 10%;
+    -moz-border-radius: 10%;
+    border-radius: 10%;
     width: 20px;
     height: 20px;
-    font-size: 20px;
+    font-size: 22px;
     background:rgba(142, 188, 248, 0.294);
     -webkit-transform: rotate(0deg);
     -moz-transform: rotate(0deg);
@@ -306,45 +307,38 @@ input[type="submit"]:hover{
     transform: rotate(0deg);
   }
   /* rádio-ecd */
-  .rádio-ecd h2{
-    color: rgb(245, 130, 136); 
-    text-align: center; 
-    font-weight: 600; 
-    font-size: 2.2em;
-    padding-top: 10px;
-  }
+
   .rádio-ecd h5{
-    color: indigo; text-align: center; font-weight: 600; font-size: 1.5em;
+    color: rgb(179, 203, 235); text-align: center; font-weight: 600; font-size: 1.5em;
     padding:0 0 30px 0;
     margin:0 0 30px 0;
   }
   .rádio-ecd img{
   width: 170px;
   margin: 20px 0 30px 0;
+  border-radius: 50px 0 50px 0;
 
   }
   .rádio-ecd audio{
     margin-bottom: 40px;
   }
-/* card doação*/
-.doação{
-  background-color: rgba(250, 235, 215, 0.513);
-}
-  .doação h2{
-    color: rgb(54, 21, 243); 
+/* card doação*/   /* rádio-ecd */
+  .doação h2, .rádio-ecd h2{
+    color: rgb(214, 205, 221); 
     text-align: center; 
     font-weight: 600; 
     font-size: 2.2em;
     padding-top: 10px;
   }
   .doação h5{
-    color: indigo; text-align: center; font-weight: 600; font-size: 1.5em;
+    color: rgb(179, 203, 235); text-align: center; font-weight: 600; font-size: 1.5em;
     padding: 5px;
   }
   /*card aplicativo ecd */
   .app img{
-    width: 300px;
+    width: 250px;
     margin-top: 50px;
+    border-radius: 25px 0 25px;
   }
   /* LOGIN */
   .login-box {

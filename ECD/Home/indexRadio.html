@@ -20,20 +20,20 @@
 <!-- menu Sidenav-->
 <header class="menu-principal">
   <div class="navbar-fixed">
-    <nav class="blue darken-2">
+    <nav class="menu">
       <div class="container">
         <div class="nav-wrapper">
-          <a href="#" data-target="mobile-links" class="sidenav-trigger right">
+          <a href="#" data-target="mobile-links" class="sidenav-trigger left">
           <i class="material-icons">menu</i></a>
+          <img style="width: 100px;margin-top: 9px;" src="../img/ECD +.PNG" alt="" class="brand-logo">
           <ul class="right hide-on-med-and-down">
-            <li><a href="index.html">INÍCIO</a></li>
-            <li><a href="manutenção.html">DOAÇÃO</a></li>
-            <li><a href="manutenção.html">CONTATO</a></li>
-            <li><a href="manutenção.html">VÍDEOS</a></li>
-            <li class="active"><a href="indexRadio.html">RÁDIO</a></li>
-            <li><a href="manutenção.html">TV</a></li>
+            <li><a class="opçoes" href="index.html">INÍCIO</a></li>
+            <li><a class="opçoes" href="manutenção.html">DOAÇÃO</a></li>
+            <li><a class="opçoes" href="manutenção.html">CONTATO</a></li>
+            <li><a class="opçoes" href="indexRadio.html">MÍDIA</a></li>
+            <li><a class="opçoes" href="Login.html">LOGIN</a></li>
             <!-- Dropdown Trigger -->
-            <li><a class="dropdown-trigger" href="#!" data-target="dropdown2"> PROGRAMAÇÕES <i class="material-icons right">arrow_drop_down</i></a></li>
+            <li class="opçoes" ><a class="dropdown-trigger" href="#!" data-target="dropdown2"> PROGRAMAÇÕES <i class="material-icons right">arrow_drop_down</i></a></li>
             <!-- Dropdown Structure -->
           <ul id="dropdown2" class="dropdown-content">
             <li><a class="text blue-text" href="manutenção.html">SO1</a></li>
@@ -49,38 +49,28 @@
       </div>
     </nav>
   </div>
-      <!--- Menu mobile -->
-      <ul class="sidenav center-align" id="mobile-links">
-        <br><img width="150" src="../img/logotipo.png" alt=""class="responsive-img">
-          <li><a class="text white-text" href="manutenção.html">DOAÇÃO</a></li>
-          <li><a class="text white-text" href="manutenção.html">CONTATO</a></li>
-          <li><a class="text white-text" href="manutenção.html">VÍDEOS</a></li>
-          <li><a class="text white-text" href="indexRadio.html">RÁDIO</a></li>
-          <li><a class="text white-text" href="manutenção.html">TV</a></li>
-          <li><a class="text white-text" href="index.html">INÍCIO</a></li>
-        <!-- Dropdown Trigger   Programações -->
-          <a class="dropdown-trigger white-text" data-coverTrigger="true" data-hover="true" href="#!" data-target="dropdown1"> PROGRAMAÇÕES <i class="material-icons">arrow_drop_down</i></a>
-        <ul id='dropdown1' class='dropdown-content'>        
-          <li><a class="text blue-text" href="#!">SO1</a></li>
-          <li class="divider" tabindex="-1"></li>
-          <li><a class="text blue-text" href="#!">SPM</a></li>
-          <li class="divider" tabindex="-1"></li> 
-          <li><a class="text blue-text" href="gigi.html">Turma da Gigi</a></li>
-          <li class="divider" tabindex="-1"></li>
-          <li><a class="text blue-text" href="#!">Fechados na Fé</a></li>
-        </ul>
-      </ul>
-  <!-------   Painel com logo  ------>
-  <div class="card-panel">
-    <img src="../img/logotipo.png" alt="" class="responsive-img">
-    <div class="icones-redes-sociais">
-      <a href="https://www.facebook.com/ECDonline" class="btn-facebook"> <i class="fab fa-facebook"></i> </a>
-      <a href="https://www.instagram.com/ecd_oficial/" class="btn-instagram"> <i class="fab fa-instagram"></i> </a>
-      <a href="https://api.whatsapp.com/send?text=Início" class="btn-whatsapp"> <i class="fab fa-whatsapp"></i> </a>
-      <a href="https://www.youtube.com/c/ECDOnline1" class="btn-youtube"> <i class="fab fa-youtube"></i> </a>
-      <a href="https://twitter.com/encomdeus" class="btn-twitter"><i class="fab fa-twitter"></i></a>
-    </div>
-  </div>
+  <!--- Menu mobile -->
+  <ul class="sidenav center-align" id="mobile-links">
+    <br>
+      <li><a class="text white-text" href="Login.html">LOGIN</a></li>
+      <li><a class="text white-text" href="manutenção.html">DOAÇÃO</a></li>
+      <li><a class="text white-text" href="manutenção.html">CONTATO</a></li>
+      <li><a class="text white-text" href="manutenção.html">VÍDEOS</a></li>
+      <li><a class="text white-text" href="indexRadio.html">RÁDIO</a></li>
+      <li><a class="text white-text" href="manutenção.html">TV</a></li>
+      <li><a class="text white-text" href="index.html">INÍCIO</a></li>
+    <!-- Dropdown Trigger   Programações -->
+      <a class="dropdown-trigger white-text" data-coverTrigger="true" data-hover="true" href="#!" data-target="dropdown1"> PROGRAMAÇÕES <i class="material-icons">arrow_drop_down</i></a>
+    <ul id='dropdown1' class='dropdown-content'>        
+      <li><a class="text blue-text" href="manutenção.html">SO1</a></li>
+      <li class="divider" tabindex="-1"></li>
+      <li><a class="text blue-text" href="manutenção.html">SPM</a></li>
+      <li class="divider" tabindex="-1"></li> 
+      <li><a class="text blue-text" href="gigi.html">Turma da Gigi</a></li>
+      <li class="divider" tabindex="-1"></li>
+      <li><a class="text blue-text" href="manutenção.html">Fechados na Fé</a></li>
+    </ul>
+  </ul>
   <div class="container">
     <div class="rádio-ecd">
         <h2> RÁDIOS ECD</h2>
@@ -93,13 +83,13 @@
   
           <!---- RADIO ECD EUA-->
         <img src="../img/1.png" class="responsive-img">
-          <audio src="https://us3freenew.listen2myradio.com/live.mp3?typeportmount=s1_30289_stream_828179732"controls loop></audio>
+          <audio src="https://us3freenew.listen2myradio.com/live.mp3?typeportmount=s1_30289_stream_176786479"controls loop></audio>
       </div>
     </div>
   </div>
 <br><br><br>
 <!-- conteúdo do rodapé -->
-<footer class="page-footer blue darken-2">
+<footer class="page-footer  light-blue darken-4">
   <div class="container">
     <div class="row">
       <div class="col l6 s12">
@@ -109,8 +99,8 @@
       <div class="col l3 s12">
         <h5 class="white-text">Redes sociais</h5>
         <ul>
-          <li><a class="white-text" href="#!">instagram/ecd_oficial</a></li>
-          <li><a class="white-text" href="#!">youtube/ECDonline</a></li>
+          <li><a class="white-text" href="#!">instagram/somosencontro</a></li>
+          <li><a class="white-text" href="#!">youtube/ecdencontrocomdeus</a></li>
           <li><a class="white-text" href="#!">facebook/ECDonline</a></li>
         </ul>
       </div>
@@ -124,16 +114,9 @@
     </div>
   </div>
 </div>
-  <div class="footer-copyright">
+  <div class="footer-copyright center-align">
     <div class="container">
       &copy 2021 Todos direitos reservados - Made by <a class="grey-text" href="#">ECD Encontro Com Deus</a>
-      <div class="icones-redes-sociais">
-        <a href="https://www.facebook.com/ECDonline" class="btn-facebook"> <i class="fab fa-facebook"></i> </a>
-        <a href="https://www.instagram.com/somosencontro/" class="btn-instagram"> <i class="fab fa-instagram"></i> </a>
-        <a href="https://api.whatsapp.com/send?text=Início" class="btn-whatsapp"> <i class="fab fa-whatsapp"></i> </a>
-        <a href="https://www.youtube.com/c/ECDOnline1" class="btn-youtube"> <i class="fab fa-youtube"></i> </a>
-        <a href="https://twitter.com/encomdeus" class="btn-twitter"><i class="fab fa-twitter"></i></a>
-      </div>
     </div>
   </div>
 </footer>

@@ -18,20 +18,28 @@
 </head>
 <body>
 <!-- menu Sidenav -->
-  <header class="menu-principal">
-    <div class="navbar-fixed">
-      <nav class="blue darken-2">
-        <div class="container">
-          <div class="nav-wrapper">
-            <a href="#" data-target="mobile-links" class="sidenav-trigger right">
-            <i class="material-icons">menu</i></a>
-            <ul class="right hide-on-med-and-down">
-              <li><a href="index.html">INÍCIO</a></li>
-              <li><a href="#">DOAÇÃO</a></li>
-              <li><a href="#">CONTATO</a></li>
-              <li><a href="#">VÍDEOS</a></li>
-              <li><a href="indexRadio.html">RÁDIO</a></li>
-              <li><a href="#">TV</a></li>
+<header class="menu-principal">
+  <div class="navbar-fixed">
+    <nav class="menu">
+      <div class="container">
+        <div class="nav-wrapper">
+          <a href="#" data-target="mobile-links" class="sidenav-trigger left">
+          <i class="material-icons">menu</i></a>
+          <img style="width: 100px;margin-top: 9px;" src="../img/ECD +.PNG" alt="" class="brand-logo">
+          <ul class="right hide-on-med-and-down">
+            <li><a class="opçoes" href="index.html">INÍCIO</a></li>
+            <li><a class="opçoes" href="manutenção.html">DOAÇÃO</a></li>
+            <li><a class="opçoes" href="manutenção.html">CONTATO</a></li>
+            <!-- Dropdown Mídia -->
+            <li><a class="dropdown-trigger" href="#!" data-target="dropdown4"> MÍDIA <i class="material-icons right">arrow_drop_down</i></a></li>
+            <!-- Dropdown Structure -->
+          <ul id="dropdown4" class="dropdown-content">
+            <li><a class="text blue-text" href="manutenção.html">TV</a></li>
+            <li class="divider" tabindex="-1"></li>
+            <li><a class="text blue-text" href="indexRadio.html">RÁDIO</a></li>
+            <li class="divider" tabindex="-1"></li>
+            <li><a class="text blue-text" href="manutenção.html">VÍDEOS</a></li>
+          </ul>
               <!-- Dropdown Trigger -->
               <li><a class="dropdown-trigger" href="#!" data-target="dropdown2"> PROGRAMAÇÕES <i class="material-icons right">arrow_drop_down</i></a></li>
               <!-- Dropdown Structure -->
@@ -62,7 +70,7 @@
     </div>
         <!--- Menu mobile -->
         <ul class="sidenav center-align" id="mobile-links">
-          <br><img width="150" src="../img/logotipo.png" alt=""class="responsive-img">
+          <br>
             <li><a class="text white-text" href="#">DOAÇÃO</a></li>
             <li><a class="text white-text" href="#">CONTATO</a></li>
             <li><a class="text white-text" href="#">VÍDEOS</a></li>
@@ -83,47 +91,44 @@
             <li><a class="text blue-text" href="#!">Fechados na Fé</a></li>
           </ul>
         </ul>
-    <!-------   Painel com logo  ------>
-    <div class="card-panel">
-      <img src="../img/logotipo.png" alt="" class="responsive-img">
-    </div>
+
     <!------------- Parallax  ------------------------->
     <div class="parallax-container">
       <div class="parallax"><img src="https://cdn.pixabay.com/photo/2015/06/02/20/58/little-girl-running-795505_960_720.jpg"></div>
     </div>
   </header>
 <!-- conteúdo do rodapé -->
-<footer class="page-footer blue darken-2">
-    <div class="container">
-      <div class="row">
-        <div class="col l6 s12">
-          <h5 class="white-text">ECD Encontro Com Deus</h5>
-          <p class="white-text">Estrada Dom João Nery, 1533 - Vila Silva Teles, São Paulo - SP <br> Rua Farmacêutico Luiz Andrade, 1381 - Jd. Mandacarú - Maringá </p>
-        </div>
-        <div class="col l3 s12">
-          <h5 class="white-text">Redes sociais</h5>
-          <ul>
-            <li><a class="white-text" href="#!">instagram/somosencontro</a></li>
-            <li><a class="white-text" href="#!">youtube/ecdencontrocomdeus</a></li>
-            <li><a class="white-text" href="#!">facebook/ECDonline</a></li>
-          </ul>
-        </div>
-        <div class="col l3 s12">
-          <h5 class="white-text">contatos</h5>
-          <ul>
-            <li><a class="white-text" href="#!">(11) 9 8720-9489</a></li>
-            <li><a class="white-text" href="#!">(11) 9 9999-9999</a></li>
-          </ul>
-        </div>
+<footer class="page-footer  light-blue darken-4">
+  <div class="container">
+    <div class="row">
+      <div class="col l6 s12">
+        <h5 class="white-text">ECD Encontro Com Deus</h5>
+        <p class="white-text">Estrada Dom João Nery, 1533 - Vila Silva Teles, São Paulo - SP <br> Rua Farmacêutico Luiz Andrade, 1381 - Jd. Mandacarú - Maringá </p>
+      </div>
+      <div class="col l3 s12">
+        <h5 class="white-text">Redes sociais</h5>
+        <ul>
+          <li><a class="white-text" href="#!">instagram/somosencontro</a></li>
+          <li><a class="white-text" href="#!">youtube/ecdencontrocomdeus</a></li>
+          <li><a class="white-text" href="#!">facebook/ECDonline</a></li>
+        </ul>
+      </div>
+      <div class="col l3 s12">
+        <h5 class="white-text">contatos</h5>
+        <ul>
+          <li><a class="white-text" href="#!">(11) 9 8720-9489</a></li>
+          <li><a class="white-text" href="#!">(11) 9 9999-9999</a></li>
+        </ul>
       </div>
     </div>
   </div>
-    <div class="footer-copyright center-align">
-      <div class="container">
-        &copy 2021 Todos direitos reservados - Made by <a class="grey-text" href="#">ECD Encontro Com Deus</a>
-      </div>
+</div>
+  <div class="footer-copyright center-align">
+    <div class="container">
+      &copy 2021 Todos direitos reservados - Made by <a class="grey-text" href="#">ECD Encontro Com Deus</a>
     </div>
-  </footer>
+  </div>
+</footer>
   </body>
   <!---Jquery-->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
