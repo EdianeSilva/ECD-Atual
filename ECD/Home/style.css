@@ -105,14 +105,7 @@ border: 1px solid rgba(255, 255, 255, 0.3);
     width:90%;
   }
 }
-.main2{
-  font-size: medium;
-  margin: 15px 0;
-  align-items: center;
-  justify-content: center;
-  display: flex;
-  border-radius: 10px;
-}
+
 /* Css da aba contato */
  .container-gless{  /* configuração efeito vidro */ 
   background:rgba(111, 175, 235, 0.048);
@@ -336,8 +329,7 @@ input[type="submit"]:hover{
   }
   /*card aplicativo ecd */
   .app img{
-    width: 250px;
-    margin-top: 50px;
+    width: 150px;
     border-radius: 25px 0 25px;
   }
   /* LOGIN */
@@ -352,7 +344,7 @@ input[type="submit"]:hover{
 
     -webkit-border-radius: 14px;
     border-radius: 14px;
-    background: #3455bb;
+    background: rgb(0,26,87);
     -webkit-box-shadow: 9px 9px 31px #4062c6, -9px -9px 31px #5482ff;
     box-shadow: 9px 9px 31px #4062c6, -9px -9px 31px #5482ff;
   }

@@ -8,6 +8,9 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 <!-- Folha de estilo-->
 <link rel="stylesheet" href="style.css">
+ <!-- Google fontes -->
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <!--Font awesome - icones-->
 <script src="https://kit.fontawesome.com/d65abf7a39.js" crossorigin="anonymous"></script>
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -80,31 +83,97 @@
       <li><a class="text blue-text" href="manutenção.html">Fechados na Fé</a></li>
     </ul>
   </ul>
-<div class="container">
-  <div class="login-box">
-    <h4>Login</h4>
-    <form>
-      <div class="user-box">
-        <input type="text" name="" required="">
-        <label>Nome</label>
+
+ <!--------- Ícones de rede social fixo ----------->
+<div class="social">
+  <ul>
+  <li><a href="https://www.facebook.com/ECDonline">Facebook <i style="color: rgb(8, 59, 245);" class="fab fa-facebook-square"></i></a></li>
+  <li><a href="https://www.instagram.com/ecd_oficial/">Instagram <i style="color: rgb(185, 3, 161);" class="fab fa-instagram-square"></i></a></li>
+  <li><a href="https://api.whatsapp.com/send?text=Início">WhatsApp <i style="color: rgb(11, 190, 17);" class="fab fa-whatsapp-square"></i></a</li>
+  <li><a href="https://www.youtube.com/c/ECDOnline1">YouTube <i style="color: rgb(202, 5, 31);" class="fab fa-youtube-square"></i></a></li>
+  </ul>
+</div>
+<!--- card Fale conosco   --> 
+    <div class="col s12 l4"> 
+      <div class="submitMsg"> 
+        <section class="contato">
+          <div class="container-gless">   
+              <h5> Fale conosco</h5>
+              <div class="row100">
+                <div class="col">
+                  <div class="inputBox">
+                    <input type="text" name="" required="required">
+                    <span class="text">Nome</span>
+                    <span class="line"></span>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="inputBox">
+                    <input type="text" name="" required="required">
+                    <span class="text">Telefone</span>
+                    <span class="line"></span>
+                  </div>
+                </div>
+              </div>
+              <div class="row100">
+                <div class="col">
+                  <div class="inputBox textarea">
+                    <textarea required="required"></textarea>
+                    <input type="text" name="" required="required">
+                    <span class="text">Escreva sua mensagem</span>
+                    <span class="line"></span>
+                  </div>
+                </div>
+              </div>       
+              <div class="row100">
+                <div class="col">        
+                <input type="submit" value="Enviar">
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
       </div>
-      <div class="user-box">
-        <input type="password" name="" required="">
-        <label>Senha</label>
-      </div>
-      <a href="manutenção.html">
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        Entrar
-      </a>
-    </form>
+    </div>
   </div>
 </div>
-  </body>
-  <!---Jquery-->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-  <!-- Materialize JavaScript -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-  </html>
+</div>
+<br><br>
+<!-- conteúdo do rodapé -->
+<footer class="page-footer  light-blue darken-4">
+  <div class="container">
+    <div class="row">
+      <div class="col l6 s12">
+        <h5 class="white-text">ECD Encontro Com Deus</h5>
+        <p class="white-text">Estrada Dom João Nery, 1533 - Vila Silva Teles, São Paulo - SP <br> Rua Farmacêutico Luiz Andrade, 1381 - Jd. Mandacarú - Maringá </p>
+      </div>
+      <div class="col l3 s12">
+        <h5 class="white-text">Redes sociais</h5>
+        <ul>
+          <li><a class="white-text" href="#!">instagram/somosencontro</a></li>
+          <li><a class="white-text" href="#!">youtube/ecdencontrocomdeus</a></li>
+          <li><a class="white-text" href="#!">facebook/ECDonline</a></li>
+        </ul>
+      </div>
+      <div class="col l3 s12">
+        <h5 class="white-text">contatos</h5>
+        <ul>
+          <li><a class="white-text" href="#!">(11) 9 8720-9489</a></li>
+          <li><a class="white-text" href="#!">(11) 9 9999-9999</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+  <div class="footer-copyright center-align">
+    <div class="container">
+      &copy 2021 Todos direitos reservados - Made by <a class="grey-text" href="#">ECD Encontro Com Deus</a>
+    </div>
+  </div>
+</footer>
+</body>
+<!---Jquery-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<!-- Materialize JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</html>
