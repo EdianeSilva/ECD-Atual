@@ -30,8 +30,17 @@
             <li><a class="opçoes" href="index.html">INÍCIO</a></li>
             <li><a class="opçoes" href="doacao.html">DOAÇÃO</a></li>
             <li><a class="opçoes" href="contatos.html">CONTATO</a></li>
-            <li><a class="opçoes" href="indexRadio.html">MÍDIA</a></li>
             <li><a class="opçoes" href="Login.html">LOGIN</a></li>
+            <!-- Dropdown Mídia -->
+            <li class="opçoes"><a class="dropdown-trigger" href="#!" data-target="dropdown4"> MÍDIA <i class="material-icons right">arrow_drop_down</i></a></li>
+            <!-- Dropdown Structure -->
+          <ul id="dropdown4" class="dropdown-content">
+            <li><a class="text blue-text" href="manutenção.html">TV</a></li>
+            <li class="divider" tabindex="-1"></li>
+            <li><a class="text blue-text" href="indexRadio.html">RÁDIO</a></li>
+            <li class="divider" tabindex="-1"></li>
+            <li><a class="text blue-text" href="manutenção.html">VÍDEOS</a></li>
+          </ul>
             <!-- Dropdown Trigger -->
             <li class="opçoes" ><a class="dropdown-trigger" href="#!" data-target="dropdown2"> PROGRAMAÇÕES <i class="material-icons right">arrow_drop_down</i></a></li>
             <!-- Dropdown Structure -->
@@ -71,23 +80,22 @@
       <li><a class="text blue-text" href="manutenção.html">Fechados na Fé</a></li>
     </ul>
   </ul>
-  <div class="container">
-    <div class="rádio-ecd">
-        <h2> RÁDIOS ECD</h2>
-        <h5>As músicas que edificam</h5>
-      <div class="container center-align">
-          <!---- RADIO ECD Brasil -->
-        <img src="../img/2.png" class="responsive-img">
-          <audio src="https://svrstream2.svreua.com/stream.php?porta=8264/;&1640620248991
-          "controls loop></audio> 
-  
-          <!---- RADIO ECD EUA-->
-        <img src="../img/1.png" class="responsive-img">
-          <audio src="https://us3freenew.listen2myradio.com/live.mp3?typeportmount=s1_30289_stream_176786479"controls loop></audio>
-      </div>
+<div class="container">
+  <div style="display: flex; justify-content: center; padding-top: 10px;" class="menu-radio-brasil">
+    <div style="background-image: url('../img/sem-remov-radio-br.png'); background-repeat: no-repeat; height: 385px;  width: 900px; display: flex; justify-content: center; align-items: center;" class="container center-align">
+      <!---- RADIO ECD Brasil -->
+      <audio style="width: 250px;height: 30px; margin-left: 70px;" src="https://streaming05.zas.media:9029/live
+      "controls loop></audio> 
     </div>
   </div>
-<br><br><br>
+
+  <div style="display: flex; justify-content: center; padding-top: 10px; margin-bottom: 10px;" class="menu-radio-brasil">
+    <div style="background-image: url('../img/3-sem-remov-eua.png'); background-repeat: no-repeat; height: 385px;  width: 900px; display: flex; justify-content: center; align-items: center;" class="container center-align">
+      <!---- RADIO ECD EUA-->
+      <audio style="width: 250px;height: 30px; margin-left: 70px; margin-top: 13px;" src="https://us3freenew.listen2myradio.com/live.mp3?typeportmount=s1_30289_stream_176786479"controls loop></audio>
+    </div>
+  </div>
+</div>
 <!-- conteúdo do rodapé -->
 <footer class="page-footer  light-blue darken-4">
   <div class="container">
@@ -113,7 +121,6 @@
       </div>
     </div>
   </div>
-</div>
   <div class="footer-copyright center-align">
     <div class="container">
       &copy 2021 Todos direitos reservados - Made by <a class="grey-text" href="#">ECD Encontro Com Deus</a>

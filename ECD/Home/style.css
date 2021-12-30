@@ -17,7 +17,6 @@ body{
 .menu{
   background: rgb(0,26,87);
 background: linear-gradient(90deg, rgba(0,26,87,1) 0%, rgba(0,26,87,1) 9%, rgba(0,62,129,1) 28%, rgba(0,132,209,1) 53%, rgba(0,131,208,1) 61%, rgba(0,128,205,1) 63%, rgba(0,62,129,1) 92%);
-
 }
 .opçoes:hover{
   background: rgb(0,132,209);
@@ -306,15 +305,9 @@ input[type="submit"]:hover{
     padding:0 0 30px 0;
     margin:0 0 30px 0;
   }
-  .rádio-ecd img{
-  width: 170px;
-  margin: 20px 0 30px 0;
-  border-radius: 50px 0 50px 0;
 
-  }
-  .rádio-ecd audio{
-    margin-bottom: 40px;
-  }
+  
+
 /* card doação*/   /* rádio-ecd */
   .doação h2, .rádio-ecd h2{
     color: rgb(214, 205, 221); 
