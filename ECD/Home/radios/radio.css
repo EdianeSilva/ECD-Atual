@@ -70,8 +70,8 @@ body{
 }
 
 .player {
-
-    width: 19.15em ;
+    margin: 5px auto;
+    width: 18.15em ;
     display: flex ;
     overflow: hidden ;
     font-size: 1.22em ;
