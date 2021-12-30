@@ -326,7 +326,7 @@ img[alt ="pause-icon"] {
     cursor: pointer ;
     border-radius: 1em ;
     touch-action : none ;
-    background-color: #898a8b ;
+    background-color: #a3a5a7 ;
     transition: width var(--cubic-header) ;
 
 }
@@ -403,7 +403,7 @@ img[alt ="pause-icon"] {
 
     font-size: .4em ;
     font-weight: bold ;
-    color: #00000079 ; 
+    color: #447aad03 ; /* deixei invisível a strong timer*/
     height: fit-content ;
     align-self: flex-end ;
 
