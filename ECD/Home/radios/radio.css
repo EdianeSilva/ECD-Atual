@@ -70,6 +70,7 @@ body{
 }
 
 .player {
+    box-shadow: 0 2px 6px 1px #0cc1f8be ;
     margin: 5px auto;
     width: 18.15em ;
     display: flex ;
