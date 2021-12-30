@@ -22,6 +22,62 @@ background: linear-gradient(90deg, rgba(0,26,87,1) 0%, rgba(0,26,87,1) 9%, rgba(
   background: rgb(0,132,209);
 background: linear-gradient(90deg, rgba(0,132,209,0.4351155257024685) 34%, rgba(0,184,224,0.4575244892879027) 53%, rgba(0,132,209,0.4351155257024685) 79%);
 }
+
+/* slider inicial */
+.slider {
+  --s:100px; /* control the size of the stripes */
+  
+  max-width:1200px;
+  aspect-ratio:2/1;
+  margin:0 auto;
+  display:grid;
+  background:center/cover;
+  animation:s1 10s linear infinite;
+}
+.slider:before {
+  content:"";
+  --g:repeating-conic-gradient(#000 0 25%,#0000 0 50%);
+  -webkit-mask:var(--g) 0 0,var(--g) 0 0;
+          mask:var(--g) 0 0,var(--g) 0 0;
+  -webkit-mask-size:calc(2*var(--s)) calc(2*var(--s));
+          mask-size:calc(2*var(--s)) calc(2*var(--s));
+  -webkit-mask-composite:xor;
+          mask-composite:exclude;
+  background:center/cover;
+  animation:inherit;
+  animation-name:p,s2;
+}
+@keyframes p{
+  0% ,10%,
+  85%,100% {-webkit-mask-position:0        0       ,0 0;
+                    mask-position:0        0       ,0 0}
+  15%,35%  {-webkit-mask-position:var(--s) 0       ,0 0;
+                    mask-position:var(--s) 0       ,0 0}
+  40%,60%  {-webkit-mask-position:var(--s) var(--s),0 0;
+                    mask-position:var(--s) var(--s),0 0}
+  65%,80%  {-webkit-mask-position:0        var(--s),0 0;
+                    mask-position:0        var(--s),0 0}
+}
+/* Update your image links below */
+@keyframes s1 {
+  0%,16%,
+  67%,100% {background-image:url('../img/iluminados.jpg')}
+  17%,66%  {background-image:url('../img/tbt.jpg')}
+}
+@keyframes s2 {
+  0%,41%,
+  87%,100% {background-image:url('../img/fechadoOnline.jpg')}
+  42%,86%  {background-image:url('../img/5.PNG')}
+}
+
+
+  /*card aplicativo ecd */
+  .app img{
+    width: 260px;
+    border-radius: 25px 0 25px;
+    margin-top: 5px;
+  }
+
 .sidenav{
 /* From https://css.glass */
 background: rgba(255, 255, 255, 0.2);
@@ -298,18 +354,9 @@ input[type="submit"]:hover{
     -o-transform: rotate(0deg);
     transform: rotate(0deg);
   }
-  /* rádio-ecd */
-
-  .rádio-ecd h5{
-    color: rgb(179, 203, 235); text-align: center; font-weight: 600; font-size: 1.5em;
-    padding:0 0 30px 0;
-    margin:0 0 30px 0;
-  }
-
-  
-
-/* card doação*/   /* rádio-ecd */
-  .doação h2, .rádio-ecd h2{
+ 
+/* card doação*/  
+  .doação h2{
     color: rgb(214, 205, 221); 
     text-align: center; 
     font-weight: 600; 
@@ -320,11 +367,7 @@ input[type="submit"]:hover{
     color: rgb(179, 203, 235); text-align: center; font-weight: 600; font-size: 1.5em;
     padding: 5px;
   }
-  /*card aplicativo ecd */
-  .app img{
-    width: 150px;
-    border-radius: 25px 0 25px;
-  }
+
   /* LOGIN */
   .login-box {
     position: absolute;
@@ -488,9 +531,7 @@ input[type="submit"]:hover{
   }
 
   /* em manutenção*/
-  .informativo h4{
-    color: aliceblue; justify-content: center; padding: 10px 10px 0 10px; margin: 5% 5% 0 5%; display: flex;
-  }
+
   .informativo h5{
     color: aliceblue; justify-content: center; padding: 5px 0 10px 0; margin: 0 0 15% 0; display: flex;
   }
