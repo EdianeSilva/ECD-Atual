@@ -31,7 +31,7 @@ body{
     user-select: none ;
     align-items: center ;
     justify-content: center ;
-    background-color: #63b0fcd3 ;
+    background-color:#6699FF;
     font-family: 'Quicksand', sans-serif ;
     -webkit-tap-highlight-color: transparent ;
     transition: background-color  var(--cubic-slider) ;
@@ -70,7 +70,7 @@ body{
 }
 
 .player {
-    box-shadow: 0 2px 6px 1px #0cc1f8be ;
+    box-shadow: 1px 1px 6px 6px #0cc1f873 ;
     margin: 5px auto;
     width: 18.15em ;
     display: flex ;
