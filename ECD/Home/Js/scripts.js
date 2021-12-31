@@ -44,7 +44,7 @@ $(document).ready(function(){
 
   $(document).ready(function(){
     $('.slider').slider({
-      height:400
+      height:300
     });
   });
 

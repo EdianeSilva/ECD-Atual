@@ -27,7 +27,7 @@ background: linear-gradient(90deg, rgba(0,132,209,0.4351155257024685) 34%, rgba(
 .slider {
   --s:100px; /* control the size of the stripes */
   
-  max-width:1090px;
+  max-width:900px;
   aspect-ratio:2/1;
   margin:0 auto;
   display:grid;
@@ -67,7 +67,7 @@ background: linear-gradient(90deg, rgba(0,132,209,0.4351155257024685) 34%, rgba(
 @keyframes s2 {
   0%,41%,
   87%,100% {background-image:url('../img/fechadoOnline.jpg')}
-  42%,86%  {background-image:url('../img/5.PNG')}
+  42%,86%  {background-image:url('../img/MOBILE\ 1.PNG')}
 }
 
 
