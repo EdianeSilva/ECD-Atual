@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
+
+:root{
+  --primary: linear-gradient(90deg, rgba(0,26,87,1) 0%, rgba(0,26,87,1) 9%, rgba(0,62,129,1) 28%, rgba(0,132,209,1) 53%, rgba(0,131,208,1) 61%, rgba(0,128,205,1) 63%, rgba(0,62,129,1) 92%);
+}
+
 *{
   margin: 0;
   padding: 0;
@@ -521,3 +526,7 @@ input[type="submit"]:hover{
     100%{transform:translate(-50%,-50%) rotate(-360deg)}
   }
   
+/* style do ícone   PLAY da rádio*/
+.controle-radio{
+  position: absolute; width: 100px; height: 20px; margin: 40px 0 0 65px; padding: 2px 2px 2px 0px;  align-items: center;  display: flex; justify-content: center;
+}
