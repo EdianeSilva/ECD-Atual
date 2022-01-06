@@ -1,5 +1,5 @@
 let musicasEUA = [
-    {src:'https://us3freenew.listen2myradio.com/live.mp3?typeportmount=s1_30289_stream_18012503'},
+    {src:'https://us3freenew.listen2myradio.com/live.mp3?typeportmount=s1_30289_stream_18012503'}
 
 ];
 
