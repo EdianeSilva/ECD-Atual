@@ -12,6 +12,9 @@
 <script src="https://kit.fontawesome.com/d65abf7a39.js" crossorigin="anonymous"></script>
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 <script src="Js/scripts.js" defer></script>
+<script src="player/playerEua.js" defer></script>
+<script src="player/playerBr.js" defer></script>
+
 <!-- icon-->
 <link rel="shortcut icon" href="../img/cruz.png">
     <title>ECD Encontro com Deus</title>
@@ -88,18 +91,40 @@
 </div>
 
 <!---- RADIO ECD Brasil -->
-  <div style="position: relative; align-items: center; display: flex; justify-content: center;" class="Imagem-radio-br center-align">
-      <audio style="position: absolute; width: 250px; height: 40px; margin: 25px 0 0 65px; padding: 2px 0px 2px 10px;" src="https://streaming05.zas.media:9029/live
-      "controls loop></audio> 
+  <div class="Imagem-radio-br">
+    
+    <div  class="player2">
+      <i class="fas fa-play-circle botao-play2"></i>
+      <i class="fas fa-pause-circle botao-pause2"></i>
+  </div>
+  <audio class="br" src="http://svrstream2.svreua.com:8264/stream?1641498462248"></audio>
+
     <img class="responsive-img" src="../img/MOBILE 2.PNG">
   </div>
 
+
 <!---- RADIO ECD EUA-->
-  <div style="position: relative; align-items: center; display: flex; justify-content: center;" class="Imagem-radio-usa center-align">
-      <audio style="position: absolute; width: 250px; height: 40px; margin: 25px 0 0 65px; padding: 2px 0px 2px 10px;" src="https://us3freenew.listen2myradio.com/live.mp3?typeportmount=s1_30289_stream_849415414"controls loop></audio>
+  <div class="Imagem-radio-usa">
+
+      <div  class="player">
+        <i class="fas fa-play-circle botao-play"></i>
+        <i class="fas fa-pause-circle botao-pause"></i>
+    </div>
+  <audio class="eua" src="https://us3freenew.listen2myradio.com/live.mp3?typeportmount=s1_30289_stream_18012503"></audio>
+
     <img class="responsive-img" src="../img/MOBILE 3.PNG">
   </div>
 </section>
+
+
+
+
+
+
+
+
+
+
 
 
 
