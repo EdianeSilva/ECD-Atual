@@ -530,7 +530,9 @@ input[type="submit"]:hover{
 .controle-radio{
   position: absolute; width: 100px; height: 20px; margin: 40px 0 0 65px; padding: 2px 2px 2px 0px;  align-items: center;  display: flex; justify-content: center;
 }
-
+.Imagem-apresentaçao{
+  position: relative; align-items: center; display: flex; justify-content: center;
+}
 /* Radio player eua*/
 .Imagem-radio-br, .Imagem-radio-usa {
   position: relative; align-items: center; display: flex; justify-content: center;
@@ -546,14 +548,14 @@ input[type="submit"]:hover{
 }
 
 .botao-play, .botao-play2 {
-  font-size: 50px;
+  font-size: 60px;
   cursor: pointer;
   margin-left: 10px;
 }
 
 .botao-pause, .botao-pause2 {
   display: none;
-  font-size: 50px;
+  font-size: 60px;
   cursor: pointer;
   margin-left: 10px;
 }
