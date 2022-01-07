@@ -1,5 +1,5 @@
 let musicasBR = [
-    {src:'http://svrstream2.svreua.com:8264/stream?1641498462248'}
+    {src:'https://streaming05.zas.media:9029/live'}
 
 ];
 
