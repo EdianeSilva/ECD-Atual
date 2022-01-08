@@ -527,9 +527,7 @@ input[type="submit"]:hover{
   }
   
 /* style do ícone   PLAY da rádio*/
-.controle-radio{
-  position: absolute; width: 100px; height: 20px; margin: 40px 0 0 65px; padding: 2px 2px 2px 0px;  align-items: center;  display: flex; justify-content: center;
-}
+
 .Imagem-apresentaçao{
   position: relative; align-items: center; display: flex; justify-content: center;
 }
@@ -555,10 +553,4 @@ input[type="submit"]:hover{
 .botao-pause, .botao-pause2 {
   font-size: 50px;
   cursor: pointer;
-}
-.botao-pause{
-  display: none;
-}
-.botao-pause2{
-  display: none;
 }
