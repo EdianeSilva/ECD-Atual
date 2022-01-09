@@ -3,9 +3,7 @@
 let musica = document.querySelector('.eua');
 let indexMusica = 0;
 
-musica.pause();
-    document.querySelector('.botao-pause').style.display = 'none';
-    document.querySelector('.botao-play').style.display = 'block';
+
 
 // Eventos
 document.querySelector('.botao-play').addEventListener('click', tocarMusica);

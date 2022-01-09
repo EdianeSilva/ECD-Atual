@@ -2,9 +2,6 @@
 let musica2 = document.querySelector('.br');
 let indexMusica2 = 0;
 
-musica2.pause();
-    document.querySelector('.botao-pause2').style.display = 'none';
-    document.querySelector('.botao-play2').style.display = 'block';
 
 // Eventos
 document.querySelector('.botao-play2').addEventListener('click', tocarMusica);
