@@ -1,8 +1,4 @@
-let musicasBR = [
-    {src:'https://streaming05.zas.media:9029/live'}
-
-];
-
+// Player Musicas brasil
 let musica2 = document.querySelector('.br');
 let indexMusica2 = 0;
 

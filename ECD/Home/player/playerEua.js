@@ -1,7 +1,4 @@
-let musicasEUA = [
-    {src:'https://us3freenew.listen2myradio.com/live.mp3?typeportmount=s1_30289_stream_18012503'}
-
-];
+//Player Radio EUA
 
 let musica = document.querySelector('.eua');
 let indexMusica = 0;
