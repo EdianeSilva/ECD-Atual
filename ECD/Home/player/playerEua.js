@@ -1,6 +1,6 @@
 //Player Radio EUA
 let musica = document.querySelector('.eua');
-let indexMusica = 0;
+let indexmusica = 0;
 
 
 
@@ -23,7 +23,7 @@ function pausarMusica(){
 
 // Player Musicas brasil
 let musicabr = document.querySelector('.br');
-let indexMusicabr = 0;
+let indexmusicabr = 0;
 
 
 // Eventos
