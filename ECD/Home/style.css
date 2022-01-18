@@ -536,13 +536,13 @@ input[type="submit"]:hover{
   position: relative; align-items: center; display: flex; justify-content: center;
 }
 .player, .player2 {
-  width: 300px;
+  gap: 15px;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  margin-top: 35px;
   position: absolute;
   color: rgb(255, 255, 255);
+
 }
 
 .botao-play, .botao-play2 {
@@ -554,3 +554,4 @@ input[type="submit"]:hover{
   font-size: 50px;
   cursor: pointer;
 }
+
