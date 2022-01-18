@@ -1,21 +1,21 @@
 // Player Musicas brasil
-let Audio = document.querySelector('.br');
-let indexAudio = 0;
+let musicabr = document.querySelector('.br');
+let indexMusicabr = 0;
 
 
 // Eventos
-document.querySelector('.botao-play2').addEventListener('click', tocarMusica);
+document.querySelector('.botao-play2').addEventListener('click', tocarMusicabr);
 
-document.querySelector('.botao-pause2').addEventListener('click', pausarMusica);
+document.querySelector('.botao-pause2').addEventListener('click', pausarMusicabr);
 
-function tocarMusica(){
-    Audio.play();
+function tocarMusicabr(){
+    musicabr.play();
     document.querySelector('.botao-pause2').style.display = 'block';
     document.querySelector('.botao-play2').style.display = 'none';
 }
 
-function pausarMusica(){
-    Audio.pause();
+function pausarMusicabr(){
+    musicabr.pause();
     document.querySelector('.botao-pause2').style.display = 'none';
     document.querySelector('.botao-play2').style.display = 'block';
 }
