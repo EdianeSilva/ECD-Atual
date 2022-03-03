@@ -43,7 +43,7 @@ $(document).ready(function(){
 
   $(document).ready(function(){
     $('.slider').slider({
-      height:300
+      height:500
     });
   });
 

@@ -283,7 +283,7 @@ input[type="submit"]
   border-radius: 8px;
 }
 input[type="submit"]:hover{
-  background: rgb(122, 176, 207);
+  background: rgb(122, 135, 207);
 }
 
 .submitMsg{
@@ -536,7 +536,7 @@ input[type="submit"]:hover{
   position: relative; align-items: center; display: flex; justify-content: center;
 }
 .player, .player2 {
-  gap: 15px;
+  gap: 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
